@@ -18,7 +18,8 @@ całkowitej. Wynikiem działania funkcji ma być jeden, jeśli liczba jest sześ
 Przetestuj funkcję na wybranych przykładach.
 
 ## Zadanie 2 [4 pkt]
-Napisać implementację iteracyjną i rekurencyjną funkcji obliczającej:
+Napisz iteracyjną i rekurencyjną wersję funkcji obliczającej:
 - [dwumian Newtona](https://pl.wikipedia.org/wiki/Symbol_Newtona)
 - największy wspólny dzielnik ([algorytm Euklidesa](https://pl.wikipedia.org/wiki/Algorytm_Euklidesa))
-Opierając się na programie z wykładu zmierzyć czas działania algorytmów i określić granice stosowalności w zależności od wartości parametrów.
+
+Opierając się na programie z wykładu zmierz czas działania algorytmów i określ granice stosowalności w zależności od wartości parametrów.
