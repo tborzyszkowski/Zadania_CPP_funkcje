@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-|    19.11.2022 23:00 |   10        |
+|    17.11.2023 23:00 |   10        |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -10,7 +10,16 @@ Przekroczenie terminu o **n** zajęć wiąże się z karą:
 
 --- 
 ## Zadanie 1 [3 pkt]
-Napisz funkcję, która wyznacza sumę cyfr zadanej liczby całkowitej. Przetestuj funkcję na wybranych przykładach.
+Liczba Armstronga to liczba, która jest sumą swoich cyfr podniesionych do potęgi, która jest liczbą cyfr tej liczby.
+
+Przykłady:
+
+- `9` jest liczbą Armstronga, ponieważ: `9 = 9^1 = 9`
+- `10` nie jest liczbą Armstronga, ponieważ: `10 != 1^2 + 0^2 = 1`
+- `153` jest liczbą Armstronga, ponieważ: `153 = 1^3 + 5^3 + 3^3 = 1 + 125 + 27 = 153`
+- `154` nie jest liczbą Armstronga, ponieważ: `154 != 1^3 + 5^3 + 4^3 = 1 + 125 + 64 = 190`
+
+Napisz funkcję, która jako parametr przyjmuje liczbę całkowitą i oddaje `1`, jeżeli liczba jest liczbą Armstronga oraz `0` w przeciwnym przypadku.
 
 ## Zadanie 2 [3 pkt]
 Napisz funkcję, która sprawdza, czy zadana jako parametr liczba całkowita jest sześcianem pewnej liczby
