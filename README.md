@@ -2,7 +2,7 @@
 
 | Termin oddania | Punkty     |
 |----------------|:-----------|
-|    20.03.2025 23:00 |   4      |
+|    27.03.2026 23:00 |   4      |
 
 --- 
 Przekroczenie terminu o **n** zajęć wiąże się z karą:
@@ -21,10 +21,14 @@ Przykłady:
 
 Napisz funkcję, która jako parametr przyjmuje liczbę całkowitą i oddaje `1`, jeżeli liczba jest liczbą Armstronga oraz `0` w przeciwnym przypadku.
 
+Przygotuj testy jednostkowe dla tego zadania.
+
 ## Zadanie 2 [1 pkt]
 Napisz funkcję, która sprawdza, czy zadana jako parametr liczba całkowita jest sześcianem pewnej liczby
 całkowitej. Wynikiem działania funkcji ma być jeden, jeśli liczba jest sześcianem oraz zero w przeciwnym wypadku.
 Przetestuj funkcję na wybranych przykładach.
+
+Przygotuj testy jednostkowe dla tego zadania.
 
 ## Zadanie 2 [2 pkt]
 Napisz iteracyjną i rekurencyjną wersję funkcji obliczającej:
